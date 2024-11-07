@@ -1,0 +1,13 @@
+.example-container {
+    width: auto;
+    height: calc(100vh - 64px) /*200px*/;
+    margin: 0;
+    border: 1px solid blue;
+    /* The background property is added to clearly distinguish the borders between drawer and main
+       content */
+    background: #eee;
+}
+.example-spacer {
+    flex: 1 1 auto;
+}
+  
